@@ -1,7 +1,6 @@
 # ML-CV
 A list of python notebooks that i completed through my courses at UTEP including Deep learning, Machine Learning, and Computer Vision
 
-
 ---
 
 ## Foundations
@@ -12,6 +11,8 @@ A list of python notebooks that i completed through my courses at UTEP including
 | `Intro to python.ipynb` | Data analysis with NumPy and Matplotlib on California Housing dataset | NumPy, Matplotlib, data loading, visualization |
 | `Accuracy Excercise.ipynb` | Calculating accuracy and precision metrics from predictions | Accuracy, precision, classification metrics |
 
+---
+
 ## Classical Machine Learning
 
 | Notebook | Description | Key Concepts |
@@ -21,11 +22,14 @@ A list of python notebooks that i completed through my courses at UTEP including
 | `linear_regression_ML_Fall21.ipynb` | Linear regression on GPU running time data using matrix operations and sklearn | Linear regression, least squares, MSE, MAE |
 | `ensembles_ML_Fall21.ipynb` | Ensemble methods comparing Decision Trees, Random Forests, and k-NN regression | Bagging, Random Forest, ensemble learning |
 | `mnist_knn_fall21.ipynb` | k-NN on MNIST with 3 optimization versions (loops → broadcasting → matrix ops) | k-NN, Euclidean distance, broadcasting, algorithm optimization |
+| `mnist_sklearn.ipynb` | MNIST classification using sklearn's KNeighborsClassifier | sklearn, k-NN, accuracy_score, confusion_matrix |
 | `sklearn_mlp.ipynb` | Multi-layer perceptron using sklearn for MNIST classification and GPU runtime regression | MLP, neural networks, sklearn |
+| `linear_regression_ML_Fall21_solution.ipynb` | Linear regression solution using pseudoinverse and sklearn regressors | Pseudoinverse, least squares, regression |
 | `svm_water_start.ipynb` | SVM classification on water potability data with hyperparameter tuning | SVM, kernel methods, MinMaxScaler, C parameter |
 | `RandIndex_purity_kmeans.ipynb` | K-Means clustering with Rand Index and purity evaluation metrics | K-Means, clustering, evaluation metrics |
 | `performance_metrics.ipynb` | Comprehensive evaluation metrics for ML models | Confusion matrix, precision, recall, F1 |
 
+---
 
 ## Deep Learning - Dense Networks
 
@@ -73,9 +77,11 @@ A list of python notebooks that i completed through my courses at UTEP including
 
 | Notebook | Description | Key Concepts |
 |----------|-------------|--------------|
+| `A  fun.ipynb` | A* pathfinding algorithm implementation for maze solving | A* search, heuristics, pathfinding, heapq |
 | `Monte Carlo.ipynb` | Monte Carlo Tree Search for Connect Four game | MCTS, UCT, game trees, simulation |
 | `Poker_sims.ipynb` | Monte Carlo Tree Search applied to poker-style card game (AKQ game) | Game theory, MCTS, decision making |
 | `bit_wise_file_Encryption.ipynb` | Simple XOR-based file encryption | XOR cipher, bitwise operations, file I/O |
+| `BSa_Math.ipynb` | Expected value and probability calculations for game show scenarios | Expected value, probability, decision analysis |
 
 ---
 
@@ -83,14 +89,30 @@ A list of python notebooks that i completed through my courses at UTEP including
 
 | Notebook | Description |
 |----------|-------------|
-| `Ramos_Estevan_exam*.ipynb` | Various ML course exam submissions |
+| `Ramos_Estevan_exam1.ipynb` | ML course exam 1 submission |
+| `Ramos_Estevan_exam2*.ipynb` | ML course exam 2 submissions |
+| `Ramos_Estevan_finalexam.ipynb` | ML final exam submission |
 | `Ramos_Estevan_practice_exam*.ipynb` | Practice exam work |
-| `Ramos_Estevan_lab*.ipynb` | Lab assignments |
-| `DM_assignment*.ipynb` | Data Mining course assignments |
+| `Estevan_Ramos_practice_exam1.ipynb` | Practice exam 1 |
+| `Ramos_Estevan_lab1.ipynb` | Lab 1 assignment |
+| `Ramos_Estevan_Lab2.ipynb` | Lab 2 assignment |
+| `Ramos_Estevan_lab3.ipynb` | Lab 3 assignment |
+| `cnn_Ramos_Estevan.ipynb` | CNN for face recognition on LFW dataset |
+| `Dense_Ramos_Estevan.ipynb` | Dense network for face recognition on LFW dataset |
+| `cv_exam2.ipynb` | Computer vision exam - fiber density image classification |
+| `DM_assignment1.ipynb` | Data Mining assignment 1 |
+| `DM_assignment2.ipynb` | Data Mining assignment 2 |
+| `DMAssigment4.ipynb` | Data Mining assignment 4 |
 | `ML_Final_Project.ipynb` | Final ML project work |
+| `ML_Final_Exam.ipynb` | ML final exam |
 | `DL_Project_1.ipynb` | Deep learning project on credit default prediction |
 | `regression_HW1.ipynb` | Regression homework |
 | `Homework 3  foundation and Sequential models.ipynb` | Keras Sequential model homework |
+| `exam1_solution.ipynb` | Exam 1 solution |
+| `exam_2_solution.ipynb` | Exam 2 solution |
+| `practice_exam_2.ipynb` | Practice exam 2 |
+| `practice_exam_2_solution.ipynb` | Practice exam 2 solution |
+| `final_exam.ipynb` | Final exam |
 
 ---
 
@@ -102,6 +124,9 @@ A list of python notebooks that i completed through my courses at UTEP including
 | `CNN to enhance CV.ipynb` | Computer vision enhancement using CNNs | Image processing, CV applications |
 | `Devcom ML Intro.ipynb` | ML introduction notebook | ML fundamentals |
 | `get_jazz_midi_files.ipynb` | Downloading MIDI files for music generation | Data collection, MIDI |
+| `messing with offer up.ipynb` | Web scraping OfferUp marketplace listings using pyOfferUp | Web scraping, API, data collection |
+| `Copy of DL_Project_1.ipynb` | Copy of deep learning project | Deep learning |
+| `Ramos_Estevan_PDE_2022.ipynb` | PDE (Partial Differential Equations) related work | PDE, numerical methods |
 
 ---
 
@@ -133,5 +158,7 @@ A list of python notebooks that i completed through my courses at UTEP including
 
 **Algorithms**
 - Monte Carlo Tree Search
+- A* pathfinding
 - Game theory
 - Cryptography basics
+- Expected value and probability
