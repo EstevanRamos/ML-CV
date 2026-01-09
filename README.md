@@ -11,6 +11,7 @@ A list of python notebooks that i completed through my courses at UTEP including
 | `Intro to python.ipynb` | Data analysis with NumPy and Matplotlib on California Housing dataset | NumPy, Matplotlib, data loading, visualization |
 | `Accuracy Excercise.ipynb` | Calculating accuracy and precision metrics from predictions | Accuracy, precision, classification metrics |
 
+
 ---
 
 ## Classical Machine Learning
@@ -73,46 +74,52 @@ A list of python notebooks that i completed through my courses at UTEP including
 
 ---
 
-## Algorithms & Simulations
-
-| Notebook | Description | Key Concepts |
-|----------|-------------|--------------|
-| `A  fun.ipynb` | A* pathfinding algorithm implementation for maze solving | A* search, heuristics, pathfinding, heapq |
-| `Monte Carlo.ipynb` | Monte Carlo Tree Search for Connect Four game | MCTS, UCT, game trees, simulation |
-| `Poker_sims.ipynb` | Monte Carlo Tree Search applied to poker-style card game (AKQ game) | Game theory, MCTS, decision making |
-| `bit_wise_file_Encryption.ipynb` | Simple XOR-based file encryption | XOR cipher, bitwise operations, file I/O |
-| `BSa_Math.ipynb` | Expected value and probability calculations for game show scenarios | Expected value, probability, decision analysis |
-
----
-
 ## Course Assignments & Exams
 
-| Notebook | Description |
-|----------|-------------|
-| `Ramos_Estevan_exam1.ipynb` | ML course exam 1 submission |
-| `Ramos_Estevan_exam2*.ipynb` | ML course exam 2 submissions |
-| `Ramos_Estevan_finalexam.ipynb` | ML final exam submission |
-| `Ramos_Estevan_practice_exam*.ipynb` | Practice exam work |
-| `Estevan_Ramos_practice_exam1.ipynb` | Practice exam 1 |
-| `Ramos_Estevan_lab1.ipynb` | Lab 1 assignment |
-| `Ramos_Estevan_Lab2.ipynb` | Lab 2 assignment |
-| `Ramos_Estevan_lab3.ipynb` | Lab 3 assignment |
-| `cnn_Ramos_Estevan.ipynb` | CNN for face recognition on LFW dataset |
-| `Dense_Ramos_Estevan.ipynb` | Dense network for face recognition on LFW dataset |
-| `cv_exam2.ipynb` | Computer vision exam - fiber density image classification |
-| `DM_assignment1.ipynb` | Data Mining assignment 1 |
-| `DM_assignment2.ipynb` | Data Mining assignment 2 |
-| `DMAssigment4.ipynb` | Data Mining assignment 4 |
-| `ML_Final_Project.ipynb` | Final ML project work |
-| `ML_Final_Exam.ipynb` | ML final exam |
-| `DL_Project_1.ipynb` | Deep learning project on credit default prediction |
-| `regression_HW1.ipynb` | Regression homework |
-| `Homework 3  foundation and Sequential models.ipynb` | Keras Sequential model homework |
-| `exam1_solution.ipynb` | Exam 1 solution |
-| `exam_2_solution.ipynb` | Exam 2 solution |
-| `practice_exam_2.ipynb` | Practice exam 2 |
-| `practice_exam_2_solution.ipynb` | Practice exam 2 solution |
-| `final_exam.ipynb` | Final exam |
+### ML Course Exams
+
+| Notebook | Description | Concepts Covered |
+|----------|-------------|------------------|
+| `Ramos_Estevan_exam1.ipynb` | Feature engineering (removing constant attributes), comparing classifiers (Random Forest, MLP, Logistic Regression) on MNIST | Feature selection, model comparison, accuracy evaluation |
+| `Ramos_Estevan_exam2*.ipynb` | Building Dense and CNN models for fiber density image classification (8 classes) | Keras Sequential, Conv2D, Dense layers, categorical cross-entropy |
+| `Ramos_Estevan_finalexam.ipynb` | Olivetti Faces classification using PCA + SVM, achieving best accuracy through dimensionality reduction | PCA, SVM, face recognition, hyperparameter tuning |
+| `ML_Final_Exam.ipynb` | Intrusion Detection System challenge - classifying network traffic as benign or attack types (DoS, DDoS, BotNet) | Multi-class classification, network security, sklearn classifiers |
+| `exam1_solution.ipynb` | Exam 1 solutions and explanations | Reference solutions |
+| `exam_2_solution.ipynb` | Exam 2 solutions and explanations | Reference solutions |
+| `practice_exam_2.ipynb` | Practice problems for exam preparation | Exam preparation |
+
+### ML Course Labs
+
+| Notebook | Description | Skills Learned |
+|----------|-------------|----------------|
+| `Ramos_Estevan_lab1.ipynb` | k-NN on MNIST and Fashion-MNIST, implementing confusion matrix from scratch, evaluating with precision/recall/F1 | Custom metric implementation, k-NN, Fashion-MNIST |
+| `Ramos_Estevan_Lab2.ipynb` | Water potability classification comparing k-NN, Naive Bayes, and Decision Trees on chemical analysis data | Real-world dataset, classifier comparison, data preprocessing |
+| `Ramos_Estevan_lab3.ipynb` | Multi-dataset image classification (CIFAR-10, LFW, CelebA) using sklearn classifiers, Dense networks, and CNNs | End-to-end ML pipeline, multiple architectures, PCA preprocessing |
+
+### Deep Learning Assignments
+
+| Notebook | Description | Skills Learned |
+|----------|-------------|----------------|
+| `cnn_Ramos_Estevan.ipynb` | CNN architecture for LFW face recognition (62 classes), with Conv2D, MaxPooling, training visualization | CNN design, face recognition, training curves |
+| `Dense_Ramos_Estevan.ipynb` | Dense network for LFW face recognition, comparing performance to CNN approach | Dense vs CNN comparison, flattening images |
+| `cv_exam2.ipynb` | Fiber density material classification using Dense and CNN models (8-class problem) | Image classification, model architecture design |
+| `DL_Project_1.ipynb` | Credit default prediction - data loading and preparation for deep learning | Tabular data, pandas, data preprocessing |
+| `regression_HW1.ipynb` | PyTorch regression on Iris dataset with DataLoader, StandardScaler, and custom training loop | PyTorch fundamentals, DataLoader, StandardScaler |
+| `Homework 3  foundation and Sequential models.ipynb` | Fine-tuning GPT-2 for text generation using HuggingFace Transformers | GPT-2, Transformers, fine-tuning, NLP |
+
+### Data Mining Assignments
+
+| Notebook | Description | Concepts Learned |
+|----------|-------------|------------------|
+| `DM_assignment1.ipynb` | Distance metrics implementation: Euclidean, Manhattan, Cosine, Jaccard, Tanimoto; k-NN from scratch | Distance functions, similarity measures, nearest neighbors |
+| `DM_assignment2.ipynb` | Clustering evaluation: K-Means, Agglomerative, DBSCAN on dry beans data with Rand Index, Purity, Silhouette Score | Clustering algorithms, cluster evaluation metrics |
+| `DMAssigment4.ipynb` | PageRank algorithm implementation, detecting dead ends and spider traps in web graphs | PageRank, link analysis, graph algorithms, matrix operations |
+
+### Projects
+
+| Notebook | Description | Skills Applied |
+|----------|-------------|----------------|
+| `ML_Final_Project.ipynb` | Cryptocurrency price forecasting using G-Research data, building regression models with RMSE/MAPE metrics | Time series, financial data, regression, feature engineering |
 
 ---
 
